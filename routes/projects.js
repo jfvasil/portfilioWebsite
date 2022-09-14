@@ -1,8 +1,8 @@
 const express = require('express')
 const router = express.Router()
-const todosController = require('../controllers/projects')
+const projectsController = require('../controllers/projects')
 
-router.get('/', projectsController.getprojects)
+router.get('/', projectsController.getProjects)
 
 //router.post('/createTodo', todosController.createTodo)
 
