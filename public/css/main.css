@@ -177,7 +177,6 @@ input, select, textarea {
 		transition: border-bottom-color 0.25s ease-in-out;
 		text-decoration: none;
 		color: #000000;
-		border-bottom: dotted 1px;
 	}
 
 		a:hover {
@@ -2329,7 +2328,7 @@ input, select, textarea {
 			font-style: normal;
 			font-variant: normal;
 			text-rendering: auto;
-			line-height: 1;
+			line-height: .5;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
@@ -3879,4 +3878,8 @@ input, select, textarea {
 			padding: 4rem;
 		}
 
+	}
+
+	a > li{
+		font-size: .75rem;
 	}
