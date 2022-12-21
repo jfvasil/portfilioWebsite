@@ -354,7 +354,9 @@ input, select, textarea {
 			}
 
 		}
-
+	a:hover{
+		color:#2ee4bb;
+	}
 /* Row */
 
 	.row {
@@ -2521,7 +2523,20 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 			}
-
+		.iconss{
+			height: 10%;
+			width:10%;
+			object-position: cover;
+			position: relative;
+			padding-right: 1rem;
+			
+		}
+		@media screen and (max-width: 350px){
+			.iconss{
+				margin-top: .5rem;
+				padding-right: .3rem;
+			}
+		}
 /* List */
 
 	ol {
@@ -2535,7 +2550,7 @@ input, select, textarea {
 		}
 
 	ul {
-		list-style: disc;
+		
 		margin: 0 0 2rem 0;
 		padding-left: 1rem;
 	}
@@ -2946,10 +2961,10 @@ input, select, textarea {
 				display: block;
 				height: 25vw;
 				min-height: 18rem;
-				object-fit: cover;
+				object-fit: contain;
 				object-position: center;
 				width: 100%;
-			}
+				}
 
 			.gallery a.landscape {
 				width: 100%;
@@ -3095,7 +3110,7 @@ input, select, textarea {
 
 			.gallery a img {
 				height: 20rem;
-			}
+				}
 
 			.gallery a.landscape img {
 				height: 25rem;
@@ -3125,6 +3140,7 @@ input, select, textarea {
 
 					.gallery a img {
 						height: 20rem;
+						
 					}
 
 					.gallery a.landscape img {
@@ -3142,6 +3158,7 @@ input, select, textarea {
 			.gallery a img {
 				height: 12rem;
 				min-height: 0;
+				
 			}
 
 			.gallery a.landscape img {
@@ -3878,8 +3895,4 @@ input, select, textarea {
 			padding: 4rem;
 		}
 
-	}
-
-	a > li{
-		font-size: .75rem;
 	}
